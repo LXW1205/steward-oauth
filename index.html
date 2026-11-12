@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>steward — personal automation</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background: #101314; color: #e6e6e6; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 34rem; padding: 2rem; }
+  h1 { font-size: 1.4rem; letter-spacing: .02em; margin: 0 0 .25rem; }
+  .sub { color: #9aa4a6; margin: 0 0 1.5rem; }
+  code { background: #1d2224; border: 1px solid #2c3437; border-radius: 4px; padding: .1rem .35rem; font-size: .9em; }
+  a { color: #8fd3e8; }
+</style>
+</head>
+<body>
+<main>
+  <h1>steward</h1>
+  <p class="sub">A personal, single-user automation for one Google account.</p>
+  <p>This site exists because Google requires a public application home page before a
+  personal OAuth client can be moved to production mode. The app itself is a local
+  service running on the owner's own home server. It reads the owner's Google Calendar
+  and Google Tasks to organise a weekly plan, using the owner's own OAuth credentials.</p>
+  <p>It is not distributed, has no other users, and stores nothing off the owner's
+  machine. Scope use is limited to <code>calendar</code> and <code>tasks</code>.</p>
+  <p><a href="/steward-oauth/privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
